@@ -1,0 +1,38 @@
+********************************************************
+* SPECIFICATION: FORMAT OF WARRIORS CONFIGURATION FILE *
+********************************************************
+
+FROM LINE 0:
+
+---------------------------------
+Warrior name
+Warrior title 
+Warrior type and class encoding
+Starting toughness
+Incremental toughness
+Starting dexterity
+Incremental dexterity
+Starting smartness
+Incremental smartness
+Base damage minimum
+Base damage maximum
+Base attack time
+Base armor
+
+--------------------------------
+For the warrior type and class encoding
+Use a decimal digit, which when
+converted to binary, has 8 bits
+the two leftmost bits will be either
+01 - tough
+10 - nimble
+11 - smart
+
+The class depends on which of the six rightmost bits are on:
+(from the right to left)
+1st bit = skeptic
+2nd bit = mystic
+3 = cursed
+4 = brute
+5 = shredder
+6 = vanilla

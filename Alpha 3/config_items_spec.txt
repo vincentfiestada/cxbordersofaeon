@@ -1,0 +1,17 @@
+********************************************************
+* SPECIFICATION: FORMAT OF WARRIORS CONFIGURATION FILE *
+********************************************************
+
+FROM LINE 0:
+
+---------------------------------
+Name of item
+Additional toughness
+Additional dexterity
+Additional smartness
+Additional armor
+Additional attack speed
+Additional hit points
+Hit point regeneration
+Additional energy
+Additional damage
